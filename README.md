@@ -3,6 +3,7 @@ Hello Word no iostream functions call
 
 code is
 
+<pre>
 __asm {
     mov edi, [esp + 4]
     sub edi, 0x200
@@ -17,3 +18,4 @@ __asm {
     add esp, 8
     ret
  }
+</pre>
