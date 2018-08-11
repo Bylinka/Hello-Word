@@ -1,6 +1,8 @@
 # Hello-Word
 Hello Word no iostream functions call
+
 code is
+
 __asm {
     mov edi, [esp + 4]
     sub edi, 0x200
