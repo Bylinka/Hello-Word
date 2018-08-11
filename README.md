@@ -8,12 +8,12 @@ __asm {
     sub edi, 0x200
     mov eax, edi
     add eax, 0x100
-    push        eax
-    call[edi]
+    push eax
+    call [edi]
     mov eax, edi
     add eax, 0x110
-    push    eax
-    call    [edi + 4]
-    add         esp, 8
+    push eax
+    call [edi + 4]
+    add esp, 8
     ret
  }
